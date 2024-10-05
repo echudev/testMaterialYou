@@ -6,16 +6,24 @@
     android:padding="16dp">
 
     <TextView
+        android:id="@+id/secondFragmentTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/secondFragmentTitle"
+        android:textSize="24sp" />
+
+    <TextView
         android:id="@+id/textViewCounterSecond"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/second_counter"
         android:textSize="24sp" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/buttonBack"
+        android:textSize="18sp"
+        style="@style/Widget.Material3.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/back_to_first_fragment" />
+        android:text="@string/back_to_first_fragment"/>
 
 </LinearLayout>

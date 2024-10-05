@@ -6,26 +6,38 @@
     android:padding="16dp">
 
     <TextView
+        android:id="@+id/firstFragmentTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/firstFragmentTitle"
+        android:textSize="24sp" />
+
+    <TextView
         android:id="@+id/textViewCounter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/first_counter"
         android:textSize="24sp" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/buttonIncrement"
+        android:textSize="18sp"
+        style="@style/Widget.Material3.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/increment_counter" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/buttonDecrement"
+        android:textSize="18sp"
+        style="@style/Widget.Material3.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/increment_counter" />
+        android:text="@string/decrement_counter" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/buttonNavigate"
+        android:textSize="20sp"
+        style="@style/Widget.Material3.Button.TextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/go_to_second_fragment" />
