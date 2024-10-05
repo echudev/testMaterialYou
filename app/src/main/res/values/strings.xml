@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Test Material You</string>
+    <string name="first_counter">Counter:</string>
+    <string name="increment_counter">Increment Counter</string>
+    <string name="go_to_second_fragment">Go to Second Fragment</string>
+    <string name="second_counter">Counter in Second Fragment:</string>
+    <string name="back_to_first_fragment">Back to First Fragment</string>
 </resources>

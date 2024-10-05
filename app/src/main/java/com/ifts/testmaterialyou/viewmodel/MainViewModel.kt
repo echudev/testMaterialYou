@@ -15,5 +15,9 @@ class MainViewModel : ViewModel() {
     fun incrementCounter() {
         _counter.value = (_counter.value ?: 0) + 1
     }
+
+    fun decrementCounter() {
+        _counter.value = (_counter.value ?: 0) - 1
+    }
 }
 

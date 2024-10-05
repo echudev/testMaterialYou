@@ -9,19 +9,25 @@
         android:id="@+id/textViewCounter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Counter: 0"
+        android:text="@string/first_counter"
         android:textSize="24sp" />
 
     <Button
         android:id="@+id/buttonIncrement"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Increment Counter" />
+        android:text="@string/increment_counter" />
+
+    <Button
+        android:id="@+id/buttonDecrement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/increment_counter" />
 
     <Button
         android:id="@+id/buttonNavigate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Go to Second Fragment" />
+        android:text="@string/go_to_second_fragment" />
 
 </LinearLayout>
