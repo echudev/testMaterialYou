@@ -1,18 +1,18 @@
 [versions]
 agp = "8.5.1"
-fragmentKtx = "latest-version"
+fragmentKtx = "1.6.1"  # Versión explícita
 kotlin = "1.9.0"
 coreKtx = "1.13.1"
 junit = "4.13.2"
-junitVersion = "1.2.1"
+junitVersion = "1.1.5"
 espressoCore = "3.6.1"
 appcompat = "1.7.0"
-lifecycleLivedataKtx = "latest-version"
+lifecycleLivedataKtx = "2.6.1"  # Versión explícita
 material = "1.12.0"
 activity = "1.9.2"
 constraintlayout = "2.1.4"
-material3 = "latest-version"
-materialVersion = "latest-version"
+material3 = "1.1.0-alpha05"  # Versión explícita
+materialVersion = "1.12.0"  # Unificación con material
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -27,7 +27,6 @@ androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
-material-vlatestversion = { module = "com.google.android.material:material", version.ref = "materialVersion" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

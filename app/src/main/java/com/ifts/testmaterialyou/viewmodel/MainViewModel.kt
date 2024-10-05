@@ -1,4 +1,4 @@
-package com.example.livedatamaterialyoufragments.viewmodel
+package com.ifts.testmaterialyou.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
